@@ -1,7 +1,7 @@
 .carre-rouge{
     width: 200px;
     height: 200px;
-    background: red;
+    background: blue;
     animation: rouge 3s infinite;
     margin-bottom: 9%;
 }
