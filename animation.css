@@ -1,0 +1,106 @@
+.carre-rouge{
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation: rouge 3s infinite;
+    margin-bottom: 9%;
+}
+@keyframes rouge{
+    from{
+        width: 200px;
+        height: 100px;
+    }
+    to{
+        width: 100px;
+        height: 200px;
+        background: linear-gradient(28deg, #f00, #fff 100%);
+    }
+    
+}
+.carre-vert
+{
+    width: 200px;
+    height: 200px;
+    background: green;
+    animation: vert 3s infinite;
+    /* margin-bottom: 9%; */
+}
+@keyframes vert {
+    0% {
+        width: 200px;
+        height: 100px;
+        background-color: aqua;
+    }
+    50% {
+        width: 100px;
+        height: 200px;
+        background-color: aquamarine;
+        
+    }
+    100% {
+        width: 100px;
+        height: 200px;
+        background: linear-gradient(28deg, rgb(106, 131, 128), #fff 100%);
+
+    }
+    
+}
+.carre-noir
+{
+    width: 200px;
+    height: 200px;
+    background: black;
+    animation: noir 3s infinite;
+}
+@keyframes noir {
+    0%{
+        width: 100px;
+        height: 200px;
+        background-color: black;
+    }
+   50%{
+        width: 200px;
+        height: 200px;
+        margin-left: 200px;
+    }
+    100%{ 
+        width: 200px;
+        height: 200px;
+        margin-left: 200px;
+        border-radius: 100%;
+        background-color: gray;
+    }
+    
+}
+.carre-bleu{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    animation: bleu 10s infinite;
+}
+@keyframes bleu {
+    0%{
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+    }
+    25%{
+        width: 0px;
+        height: 0px;
+        background-color: antiquewhite;
+    }
+    50%{
+        width: 100px;
+        height: 100px;
+        rotate: 180deg;
+        background-color: beige;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        rotate: 540deg;
+        margin-left: 400px;
+        background-color: azure;
+    }
+}
+
